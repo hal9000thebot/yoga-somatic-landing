@@ -128,7 +128,7 @@ export default function App() {
         </div>
         <div className="relative z-10 text-center text-white px-6">
           <h1 className="text-5xl md:text-7xl mb-6 tracking-wide">
-            Find Your Balance
+            Симона Гоцис
           </h1>
           <p className="text-xl md:text-2xl tracking-wider opacity-90">
             Yoga • Somatic Therapy • Healing
