@@ -179,9 +179,8 @@ export default function App() {
           <ImageWithFallback
             src={aboutImg}
             alt="Simona Gotsis portrait"
-            className="w-full h-full object-cover"
-            // Keep subject (on the right) in frame on narrow viewports
-            style={{ objectPosition: '80% center' }}
+            // On small screens, keep the left side in frame; on md+ keep centered
+            className="w-full h-full object-cover object-[20%_center] md:object-center"
           />
           {/* White overlay @ 70% => image effectively shows through at ~30% */}
           <div className="absolute inset-0 bg-white/70" />
