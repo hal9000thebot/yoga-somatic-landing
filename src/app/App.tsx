@@ -160,6 +160,7 @@ export default function App() {
             src={aboutImg}
             alt="Simona Gotsis portrait"
             className="w-full h-full object-cover"
+            style={{ objectPosition: '20% center' }}
           />
           {/* White overlay @ 70% => image effectively shows through at ~30% */}
           <div className="absolute inset-0 bg-white/70" />
