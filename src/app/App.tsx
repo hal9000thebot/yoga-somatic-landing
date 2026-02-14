@@ -4,6 +4,7 @@ import { ImageWithFallback } from './components/figma/ImageWithFallback';
 
 import heroImg from '../assets/hero.jpg';
 import aboutImg from '../assets/about.jpg';
+import contactImg from '../assets/contact.jpg';
 
 export default function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -230,15 +231,16 @@ export default function App() {
       <section id="contact" className="relative min-h-screen flex items-center">
         <div className="absolute inset-0">
           <ImageWithFallback
-            src="https://images.unsplash.com/photo-1758274530610-1994ee573400?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx5b2dhJTIwdGhlcmFweSUyMGNhbG0lMjB3ZWxsbmVzc3xlbnwxfHx8fDE3NzEwNTk0MTN8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-            alt="Wellness therapy"
+            src={contactImg}
+            alt="Contact background"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-black/50" />
+          {/* White overlay @ 70% => image effectively shows through at ~30% */}
+          <div className="absolute inset-0 bg-white/70" />
         </div>
-        <div className="relative z-10 max-w-3xl mx-auto px-6 py-20 text-white">
+        <div className="relative z-10 max-w-3xl mx-auto px-6 py-20 text-gray-900">
           <h2 className="text-4xl md:text-5xl mb-12 tracking-wide">
-            Schedule a Consultation
+            Контакт
           </h2>
           <div className="space-y-8">
             <p className="text-lg leading-relaxed">
