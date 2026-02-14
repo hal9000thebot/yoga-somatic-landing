@@ -3,8 +3,9 @@ import path from 'path'
 import tailwindcss from '@tailwindcss/vite'
 import react from '@vitejs/plugin-react'
 
-// GitHub Pages deploy base path
-const base = process.env.GITHUB_PAGES === 'true' ? '/yoga-somatic-landing/' : '/'
+// Deploy base path
+// Using a custom domain (simonagotsis.com), so the site is served at the root.
+const base = '/'
 
 export default defineConfig({
   base,
