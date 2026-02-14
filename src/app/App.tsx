@@ -2,8 +2,8 @@ import { useState, useEffect } from 'react';
 import { Menu, X, Instagram, Facebook, Mail, Phone } from 'lucide-react';
 import { ImageWithFallback } from './components/figma/ImageWithFallback';
 
-import heroImg from '../assets/hero.jpg';
-import aboutImg from '../assets/about.jpg';
+import heroImg from '../assets/about.jpg';
+import aboutImg from '../assets/hero.jpg';
 import contactImg from '../assets/contact.jpg';
 
 export default function App() {
