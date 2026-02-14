@@ -248,7 +248,7 @@ export default function App() {
           </h2>
           <div className="space-y-8">
             <p className="text-lg leading-relaxed">
-              Радвам се да ви предложа безплатна 20-минутна консултация, в която да обсъдим вашите нужди и как можем да работим заедно.
+              Радвам се да ти предложа безплатна 20-минутна консултация, в която да обсъдим твоите нужди и как можем да работим заедно.
             </p>
             <div className="space-y-6">
               <div className="flex items-center gap-4">
