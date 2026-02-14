@@ -75,7 +75,15 @@ export default function App() {
                   activeSection === 'about' ? 'text-gray-800' : 'text-gray-500 hover:text-gray-800'
                 }`}
               >
-                About
+                За мен
+              </button>
+              <button
+                onClick={() => scrollToSection('practices')}
+                className={`tracking-wide transition-colors ${
+                  activeSection === 'practices' ? 'text-gray-800' : 'text-gray-500 hover:text-gray-800'
+                }`}
+              >
+                Практики
               </button>
               <button
                 onClick={() => scrollToSection('contact')}
@@ -83,7 +91,7 @@ export default function App() {
                   activeSection === 'contact' ? 'text-gray-800' : 'text-gray-500 hover:text-gray-800'
                 }`}
               >
-                Contact
+                Контакт
               </button>
               <button
                 onClick={() => scrollToSection('socials')}
@@ -91,7 +99,7 @@ export default function App() {
                   activeSection === 'socials' ? 'text-gray-800' : 'text-gray-500 hover:text-gray-800'
                 }`}
               >
-                Connect
+                Последвай ме
               </button>
             </div>
 
@@ -111,19 +119,25 @@ export default function App() {
                 onClick={() => scrollToSection('about')}
                 className="text-left tracking-wide text-gray-600 hover:text-gray-800"
               >
-                About
+                За мен
+              </button>
+              <button
+                onClick={() => scrollToSection('practices')}
+                className="text-left tracking-wide text-gray-600 hover:text-gray-800"
+              >
+                Практики
               </button>
               <button
                 onClick={() => scrollToSection('contact')}
                 className="text-left tracking-wide text-gray-600 hover:text-gray-800"
               >
-                Contact
+                Контакт
               </button>
               <button
                 onClick={() => scrollToSection('socials')}
                 className="text-left tracking-wide text-gray-600 hover:text-gray-800"
               >
-                Connect
+                Последвай ме
               </button>
             </div>
           )}
