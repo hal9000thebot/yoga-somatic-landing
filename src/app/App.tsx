@@ -274,7 +274,7 @@ export default function App() {
               {/* Calendly inline widget */}
               <div
                 className="calendly-inline-widget"
-                data-url="https://calendly.com/manchev-ivan/30min"
+                data-url="https://calendly.com/gotsis-simona/30min"
                 style={{ minWidth: 320, height: 700 }}
               />
             </div>
