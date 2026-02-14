@@ -155,7 +155,7 @@ export default function App() {
             src={heroImg}
             alt="Yoga practice"
             // On small screens, shift crop to the right; on md+ keep centered
-            className="w-full h-full object-cover object-[95%_center] md:object-center"
+            className="w-full h-full object-cover object-[20%_center] md:object-center"
           />
           <div className="absolute inset-0 bg-black/30" />
         </div>
