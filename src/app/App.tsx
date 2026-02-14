@@ -168,24 +168,11 @@ export default function App() {
         </div>
         <div className="relative z-10 max-w-3xl mx-auto px-6 py-20">
           <h2 className="text-4xl md:text-5xl mb-8 text-gray-800 tracking-wide">
-            About
+            За мен
           </h2>
           <div className="space-y-6 text-gray-700 leading-relaxed">
             <p className="text-lg">
-              Welcome. I'm a certified yoga instructor and somatic therapist dedicated to
-              helping you reconnect with your body and find inner peace through mindful movement
-              and therapeutic practices.
-            </p>
-            <p className="text-lg">
-              With over 10 years of experience in both yoga instruction and somatic therapy,
-              I offer a holistic approach to wellness that honors the deep connection between
-              mind, body, and spirit.
-            </p>
-            <p className="text-lg">
-              My practice integrates traditional yoga philosophy with somatic experiencing,
-              creating a safe space for you to explore, heal, and transform. Whether you're
-              seeking physical healing, emotional release, or simply a deeper connection with
-              yourself, I'm here to guide you on your journey.
+              Аз съм йога учител, посветен на съзнателния начин на живот. Сертифициран специалист по разчитане на микро- и макро- изражения и по емоционална интелигентност от Paul Ekman International- водеща организация в сферата на емоционалното познание и невербалната комуникация. Членувам в Somatic Institute for Women. Познанията в областта ми позволяват да подпомагам не само физическото, но и емоционалното благополучие и познание на моите ученици. Работя активно в посока на повишаване на самосъзнанието, емпатията и уменията за емоционално регулиране- ключови елементи както в личното развитие, така и в междуличностните отношения.
             </p>
           </div>
         </div>
