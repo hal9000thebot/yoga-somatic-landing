@@ -239,8 +239,8 @@ export default function App() {
             alt="Contact background"
             className="w-full h-full object-cover"
           />
-          {/* White overlay @ 70% => image effectively shows through at ~30% */}
-          <div className="absolute inset-0 bg-white/70" />
+          {/* White overlay @ 30% => image effectively shows through at ~70% */}
+          <div className="absolute inset-0 bg-white/30" />
         </div>
         <div className="relative z-10 max-w-3xl mx-auto px-6 py-20 text-gray-900">
           <h2 className="text-4xl md:text-5xl mb-12 tracking-wide">
