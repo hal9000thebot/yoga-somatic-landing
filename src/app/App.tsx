@@ -11,7 +11,7 @@ export default function App() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ['hero', 'about', 'contact', 'socials'];
+      const sections = ['hero', 'about', 'practices', 'contact', 'socials'];
       const scrollPosition = window.scrollY + 100;
 
       for (const section of sections) {
@@ -181,25 +181,32 @@ export default function App() {
               Работя активно в посока на повишаване на самосъзнанието, емпатията и уменията за емоционално регулиране- ключови елементи както в личното развитие, така и в междуличностните отношения.
             </p>
 
-            {/* Services */}
-            <div className="grid gap-6 md:grid-cols-2 pt-6">
-              <div className="rounded-xl bg-gray-100/90 border border-gray-200 p-6 text-gray-900">
-                <h3 className="text-2xl mb-4 tracking-wide">Индивидуални сесии</h3>
-                <ul className="list-disc pl-5 space-y-2">
-                  <li>Култивиране на любов и състрадание към себе си</li>
-                  <li>Развитие на умения за емпатично слушане</li>
-                  <li>Свързване със собствените емоции чрез тяло и въображение</li>
-                </ul>
-              </div>
+          </div>
+        </div>
+      </section>
 
-              <div className="rounded-xl bg-gray-100/90 border border-gray-200 p-6 text-gray-900">
-                <h3 className="text-2xl mb-4 tracking-wide">Групови практики</h3>
-                <ul className="list-disc pl-5 space-y-2">
-                  <li>Създаване на усещане за сигурност, мекота и доверие в групата</li>
-                  <li>Осъзнаване на личните граници- телесни, емоционални и комуникационни</li>
-                  <li>Насърчаване на уязвимостта като ресурс, а не слабост</li>
-                </ul>
-              </div>
+      {/* Practices Section */}
+      <section id="practices" className="relative bg-white">
+        <div className="max-w-3xl mx-auto px-6 py-20">
+          <h2 className="text-4xl md:text-5xl mb-8 text-gray-800 tracking-wide">Практики</h2>
+
+          <div className="grid gap-6 md:grid-cols-2">
+            <div className="rounded-xl bg-gray-100/90 border border-gray-200 p-6 text-gray-900">
+              <h3 className="text-2xl mb-4 tracking-wide">Индивидуални сесии</h3>
+              <ul className="list-disc pl-5 space-y-2">
+                <li>Култивиране на любов и състрадание към себе си</li>
+                <li>Развитие на умения за емпатично слушане</li>
+                <li>Свързване със собствените емоции чрез тяло и въображение</li>
+              </ul>
+            </div>
+
+            <div className="rounded-xl bg-gray-100/90 border border-gray-200 p-6 text-gray-900">
+              <h3 className="text-2xl mb-4 tracking-wide">Групови практики</h3>
+              <ul className="list-disc pl-5 space-y-2">
+                <li>Създаване на усещане за сигурност, мекота и доверие в групата</li>
+                <li>Осъзнаване на личните граници- телесни, емоционални и комуникационни</li>
+                <li>Насърчаване на уязвимостта като ресурс, а не слабост</li>
+              </ul>
             </div>
           </div>
         </div>
