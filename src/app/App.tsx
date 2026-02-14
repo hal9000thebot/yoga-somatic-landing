@@ -49,7 +49,7 @@ export default function App() {
               onClick={() => scrollToSection('hero')}
               className="text-xl tracking-wider text-gray-800"
             >
-              <span className="flex flex-col md:flex-row md:items-baseline">
+              <span className="flex flex-col items-start text-left md:flex-row md:items-baseline">
                 <span
                   style={{
                     fontFamily: `'Fira Sans Condensed', ui-sans-serif, system-ui, sans-serif`,
