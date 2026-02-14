@@ -3,6 +3,7 @@ import { Menu, X, Instagram, Facebook, Mail, Phone } from 'lucide-react';
 import { ImageWithFallback } from './components/figma/ImageWithFallback';
 
 import heroImg from '../assets/hero.jpg';
+import aboutImg from '../assets/about.jpg';
 
 export default function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -156,10 +157,11 @@ export default function App() {
       <section id="about" className="relative min-h-screen flex items-center">
         <div className="absolute inset-0">
           <ImageWithFallback
-            src="https://images.unsplash.com/photo-1764192114257-ae9ecf97eb6f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtZWRpdGF0aW9uJTIwc2VyZW5lJTIwbmF0dXJlfGVufDF8fHx8MTc3MTA1OTQxMnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-            alt="Meditation in nature"
+            src={aboutImg}
+            alt="Simona Gotsis portrait"
             className="w-full h-full object-cover"
           />
+          {/* White overlay @ 70% => image effectively shows through at ~30% */}
           <div className="absolute inset-0 bg-white/70" />
         </div>
         <div className="relative z-10 max-w-3xl mx-auto px-6 py-20">
