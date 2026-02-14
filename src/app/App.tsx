@@ -49,22 +49,25 @@ export default function App() {
               onClick={() => scrollToSection('hero')}
               className="text-xl tracking-wider text-gray-800"
             >
-              <span
-                style={{
-                  fontFamily: `'Fira Sans Condensed', ui-sans-serif, system-ui, sans-serif`,
-                  fontWeight: 500
-                }}
-              >
-                СИМОНА ГОЦИС |
-              </span>
-              <span
-                style={{
-                  fontFamily: `'Fira Sans Condensed', ui-sans-serif, system-ui, sans-serif`,
-                  fontWeight: 400,
-                  fontStyle: 'italic'
-                }}
-              >
-                {' '}Йога и Соматична терапия
+              <span className="flex flex-col md:flex-row md:items-baseline">
+                <span
+                  style={{
+                    fontFamily: `'Fira Sans Condensed', ui-sans-serif, system-ui, sans-serif`,
+                    fontWeight: 500
+                  }}
+                >
+                  СИМОНА ГОЦИС |
+                </span>
+                <span
+                  className="md:ml-2"
+                  style={{
+                    fontFamily: `'Fira Sans Condensed', ui-sans-serif, system-ui, sans-serif`,
+                    fontWeight: 400,
+                    fontStyle: 'italic'
+                  }}
+                >
+                  Йога и Соматична терапия
+                </span>
               </span>
             </button>
 
