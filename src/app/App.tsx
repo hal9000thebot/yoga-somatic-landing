@@ -154,7 +154,8 @@ export default function App() {
           <ImageWithFallback
             src={heroImg}
             alt="Yoga practice"
-            className="w-full h-full object-cover"
+            // On small screens, shift crop to the right; on md+ keep centered
+            className="w-full h-full object-cover object-[80%_center] md:object-center"
           />
           <div className="absolute inset-0 bg-black/30" />
         </div>
