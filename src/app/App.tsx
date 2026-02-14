@@ -266,7 +266,14 @@ export default function App() {
                 </a>
               </div>
             </div>
-            {/* Studio hours removed */}
+            <div className="pt-10">
+              {/* Calendly inline widget */}
+              <div
+                className="calendly-inline-widget"
+                data-url="https://calendly.com/manchev-ivan/30min"
+                style={{ minWidth: 320, height: 700 }}
+              />
+            </div>
           </div>
         </div>
       </section>
