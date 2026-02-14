@@ -55,7 +55,7 @@ export default function App() {
                   fontWeight: 500
                 }}
               >
-                СИМОНА ГОЦИС | 
+                СИМОНА ГОЦИС |
               </span>
               <span
                 style={{
@@ -64,7 +64,7 @@ export default function App() {
                   fontStyle: 'italic'
                 }}
               >
-                Йога и Соматична терапия
+                {' '}Йога и Соматична терапия
               </span>
             </button>
 
