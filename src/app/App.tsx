@@ -56,7 +56,8 @@ export default function App() {
                     fontWeight: 500
                   }}
                 >
-                  СИМОНА ГОЦИС |
+                  <span className="hidden md:inline">СИМОНА ГОЦИС |</span>
+                  <span className="md:hidden">СИМОНА ГОЦИС</span>
                 </span>
                 <span
                   className="md:ml-2"
