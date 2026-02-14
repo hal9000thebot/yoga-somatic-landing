@@ -146,8 +146,8 @@ export default function App() {
           <h1 className="text-5xl md:text-7xl mb-6 tracking-wide">
             Симона Гоцис
           </h1>
-          <p className="text-xl md:text-2xl tracking-wider opacity-90">
-            Yoga • Somatic Therapy • Healing
+          <p className="text-xl md:text-2xl tracking-wider opacity-90" style={{ fontFamily: `'Fira Sans Condensed', ui-sans-serif, system-ui, sans-serif`, fontWeight: 400 }}>
+            Йога • Соматична терапия • Консултации
           </p>
         </div>
       </section>
