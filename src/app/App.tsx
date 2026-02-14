@@ -2,6 +2,8 @@ import { useState, useEffect } from 'react';
 import { Menu, X, Instagram, Facebook, Mail, Phone } from 'lucide-react';
 import { ImageWithFallback } from './components/figma/ImageWithFallback';
 
+import heroImg from '../assets/hero.jpg';
+
 export default function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeSection, setActiveSection] = useState('hero');
@@ -118,7 +120,7 @@ export default function App() {
       >
         <div className="absolute inset-0">
           <ImageWithFallback
-            src="https://images.unsplash.com/photo-1761034114072-9ec9c3d2fbb2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx5b2dhJTIwaW5zdHJ1Y3RvciUyMHBlYWNlZnVsJTIwc3R1ZGlvfGVufDF8fHx8MTc3MTA1OTQxMnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+            src={heroImg}
             alt="Yoga practice"
             className="w-full h-full object-cover"
           />
