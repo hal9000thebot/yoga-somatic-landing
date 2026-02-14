@@ -288,29 +288,35 @@ export default function App() {
           <p className="text-lg text-gray-700 mb-12 leading-relaxed">
             Follow along for daily inspiration, class updates, and wellness tips.
           </p>
-          <div className="flex justify-center gap-8">
-            <a
-              href="https://instagram.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex flex-col items-center gap-3 text-gray-700 hover:text-gray-900 transition-colors"
-            >
-              <div className="w-16 h-16 rounded-full bg-white border-2 border-gray-300 flex items-center justify-center hover:border-gray-900 transition-colors">
-                <Instagram size={28} />
-              </div>
-              <span className="tracking-wide">Instagram</span>
-            </a>
-            <a
-              href="https://facebook.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex flex-col items-center gap-3 text-gray-700 hover:text-gray-900 transition-colors"
-            >
-              <div className="w-16 h-16 rounded-full bg-white border-2 border-gray-300 flex items-center justify-center hover:border-gray-900 transition-colors">
-                <Facebook size={28} />
-              </div>
-              <span className="tracking-wide">Facebook</span>
-            </a>
+          <div className="mt-6">
+            {/* Elfsight Instagram feed embed */}
+            <div className="elfsight-app-77938894-2ef1-4884-988b-44a0ddb91a70" data-elfsight-app-lazy></div>
+
+            {/* Optional social links (keep for now) */}
+            <div className="flex justify-center gap-8 mt-12">
+              <a
+                href="https://instagram.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex flex-col items-center gap-3 text-gray-700 hover:text-gray-900 transition-colors"
+              >
+                <div className="w-16 h-16 rounded-full bg-white border-2 border-gray-300 flex items-center justify-center hover:border-gray-900 transition-colors">
+                  <Instagram size={28} />
+                </div>
+                <span className="tracking-wide">Instagram</span>
+              </a>
+              <a
+                href="https://facebook.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex flex-col items-center gap-3 text-gray-700 hover:text-gray-900 transition-colors"
+              >
+                <div className="w-16 h-16 rounded-full bg-white border-2 border-gray-300 flex items-center justify-center hover:border-gray-900 transition-colors">
+                  <Facebook size={28} />
+                </div>
+                <span className="tracking-wide">Facebook</span>
+              </a>
+            </div>
           </div>
           <div className="mt-16 pt-8 border-t border-gray-300">
             <p className="text-sm text-gray-600 tracking-wider">
