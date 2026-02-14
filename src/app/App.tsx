@@ -244,39 +244,29 @@ export default function App() {
           </h2>
           <div className="space-y-8">
             <p className="text-lg leading-relaxed">
-              Ready to begin your journey? I offer complimentary 20-minute consultations
-              to discuss your needs and how we can work together.
+              Радвам се да ви предложа безплатна 20-минутна консултация, в която да обсъдим вашите нужди и как можем да работим заедно.
             </p>
             <div className="space-y-6">
               <div className="flex items-center gap-4">
                 <Mail className="w-6 h-6" />
                 <a
-                  href="mailto:hello@yogastudio.com"
+                  href="mailto:gotsis.simona@gmail.com"
                   className="text-lg hover:opacity-80 transition-opacity"
                 >
-                  hello@yogastudio.com
+                  gotsis.simona@gmail.com
                 </a>
               </div>
               <div className="flex items-center gap-4">
                 <Phone className="w-6 h-6" />
                 <a
-                  href="tel:+15551234567"
+                  href="tel:+359899597983"
                   className="text-lg hover:opacity-80 transition-opacity"
                 >
-                  (555) 123-4567
+                  +359 89 959 7983
                 </a>
               </div>
             </div>
-            <div className="pt-8">
-              <p className="mb-4 text-sm tracking-wider uppercase opacity-90">
-                Studio Hours
-              </p>
-              <div className="space-y-2 text-lg">
-                <p>Monday - Friday: 7:00 AM - 7:00 PM</p>
-                <p>Saturday: 8:00 AM - 4:00 PM</p>
-                <p>Sunday: By appointment</p>
-              </div>
-            </div>
+            {/* Studio hours removed */}
           </div>
         </div>
       </section>
