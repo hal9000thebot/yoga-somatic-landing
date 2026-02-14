@@ -272,21 +272,13 @@ export default function App() {
       </section>
 
       {/* Socials Section */}
-      <section id="socials" className="relative min-h-screen flex items-center">
-        <div className="absolute inset-0">
-          <ImageWithFallback
-            src="https://images.unsplash.com/photo-1643237131522-bbf79b062ca1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzb21hdGljJTIwYm9keXdvcmslMjBoZWFsaW5nfGVufDF8fHx8MTc3MTA1OTQxM3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-            alt="Somatic healing"
-            className="w-full h-full object-cover"
-          />
-          <div className="absolute inset-0 bg-white/75" />
-        </div>
-        <div className="relative z-10 max-w-3xl mx-auto px-6 py-20 text-center">
-          <h2 className="text-4xl md:text-5xl mb-12 text-gray-800 tracking-wide">
-            Connect With Me
+      <section id="socials" className="relative bg-white">
+        <div className="max-w-3xl mx-auto px-6 py-20 text-center">
+          <h2 className="text-4xl md:text-5xl mb-8 text-gray-800 tracking-wide">
+            Последвай ме
           </h2>
           <p className="text-lg text-gray-700 mb-12 leading-relaxed">
-            Follow along for daily inspiration, class updates, and wellness tips.
+            Последвай ме в Instagram, за да разбереш актуалната ми програма от класове
           </p>
           <div className="mt-6">
             {/* Elfsight Instagram feed embed */}
